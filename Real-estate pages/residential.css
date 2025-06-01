@@ -1,0 +1,135 @@
+.service-hr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(61, 61, 61);
+}
+.hr-line {
+    height: 3px;
+    width: 70px;
+    border: none;
+    background-color: rgb(255, 137, 3);
+
+}
+
+.desc-sub-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.all-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 10px;
+    background-color: #f0f0f0;
+}
+
+.property-display {
+  padding: 10px;
+  background: #eceaea;
+  text-align: center;
+}
+
+.apartment-swiper {
+  height: 80vh;
+  background: #d3d2d2;
+  padding: 0px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.apartment-swiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.swiper-slide {
+  opacity: 0.5;
+  transform: scale(0.85);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.desktop-grid-container {
+  display: none;
+  padding: 0 15px;
+}
+
+.desktop-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.desktop-grid img {
+  width: 80%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.desktop-grid img:hover {
+  transform: scale(1.03);
+}
+
+.apartment-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.apartment-info p {
+  max-width: 600px;
+  margin: 0 auto 16px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+
+
+
+
+
+@media (min-width: 1024px) {
+  .desktop-grid-container {
+    display: block;
+  }
+
+  .property-display {
+  text-align: center;
+  background: #eceaea;
+}
+
+.apartment-swiper {
+    background-color: rgb(145, 144, 144);
+    padding: 0px;
+}
+
+
+
+.apartment-swiper img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+}
