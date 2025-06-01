@@ -1,0 +1,79 @@
+.promo-hero {
+    background: rgba(255, 251, 27, 0.397);
+    padding: 5px 5px 10px 35px;
+}
+
+.offer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    row-gap: 20px;
+    background-color: white;
+    padding: 15px 15px;
+}
+
+.offer-box {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.why-us-sec {
+    background-color: #a7a5a560;
+    padding-bottom: 5px;
+}
+
+.why-us-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.548);
+} 
+
+    .hero-container{
+        align-items: center;
+        text-align: center;
+    }
+
+.intro {
+  padding-bottom: 35px;
+}
+#head1 {
+    width: 100%;
+}
+
+#grid-video {
+    object-fit: cover;
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+}
+
+.video-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.last-text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding:0px 30px 10px 30px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 3000px){
+    #grid-video {
+    object-fit: cover;
+    width: 76%;
+    padding: 0px 10px 10px 10px;
+}
+}

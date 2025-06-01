@@ -1,0 +1,346 @@
+.hero-section {
+    height: 90vh;
+    background-image: url(Images/About\ Image/about1.jpg);
+    background-size: cover;
+    animation-name: none;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    color: white;
+    background: rgba(0, 0, 0, 0.096);
+    height: 90vh;
+    padding: 0px 0px 0px 10px;
+    line-height: 18px;
+}
+
+.intro {
+    margin-bottom: 60px;
+}
+
+.intro-text{
+    line-height: 30px;
+    padding-right: 50px;
+}
+
+#join-btn {
+    background-color: rgb(255, 137, 3);
+    border: none;
+    padding: 8px ;
+    margin-top: -40px;
+    color: black;
+}
+
+
+
+#join-btn:active {
+    background-color: rgb(255, 148, 25);
+    transform: scale(1.2);
+    transition: transform 0.1s;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+
+
+#head1 {
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+    width: 85%;
+    
+}
+
+.abt-section {
+    background-color: #e4e4e4ab;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+
+.values-section {
+  background-color: #e4e4e4ab;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #f97316; 
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.section-intro {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.value-card {
+  background-color: rgba(255, 255, 255, 0.548);
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.value-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+
+  border-color: #f97316;
+}
+
+.icon {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.value-card h3 {
+  color: #f97316;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+
+.why-choose {
+  background-color: #f3f4f6; /* Light gray */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #f97316; /* Orange */
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  color: #555;
+}
+
+.choose-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.choose-card {
+  flex: 1 1 calc(33.333% - 30px); /* 3 per row */
+  max-width: 320px;
+  background-color: rgba(255, 255, 255, 0.548);
+  padding: 30px 20px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: all 0.4s ease;
+  text-align: center;
+}
+
+.choose-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+  border-color: #f97316;
+}
+
+.choose-card .icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #f97316;
+}
+
+.choose-card h3 {
+  font-size: 1.25rem;
+  color: #f97316;
+  margin-bottom: 10px;
+}
+
+.choose-card p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Responsive: Stack cards on small screens */
+@media screen and (max-width: 768px) {
+  .choose-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+
+.choose-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+  border-color: #f97316;
+}
+
+.choose-card .icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #f97316;
+}
+
+.choose-card h3 {
+  font-size: 1.25rem;
+  color: #f97316;
+  margin-bottom: 10px;
+}
+
+.choose-card p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+.trust-section {
+  background-color: #e4e4e4ab;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.trust-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.trust-title {
+  font-size: 2.2rem;
+  color: #f97316; /* orange */
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.trust-text {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+
+.cta-section {
+  background-color: #f3f4f6;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cta-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cta-title {
+  font-size: 2.4rem;
+  color: #f97316;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.cta-subtext {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #f97316;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #ea580c;
+  transform: translateY(-2px);
+}
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+    .abt-section {
+    padding: 10px 20px;
+}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+    .abt-section {
+    padding: 10px 20px;
+}
+
+.abt-text {
+   max-width: 85%; 
+   background-color: rgba(255, 255, 255, 0.212);
+}
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 3000px) {
+    .abt-section {
+    padding: 10px 20px;
+}
+
+.abt-text {
+   max-width: 85%; 
+   background-color: rgba(255, 255, 255, 0.171);
+   border-radius: 20px;
+   padding: 0px 20px;
+}
+}
